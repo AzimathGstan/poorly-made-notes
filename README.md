@@ -6,5 +6,4 @@ static const volatile char** POORLY_MADE_NOTES = &NOT_REALLY_SURE_IF_THIS_EXISTS
 
 ```
 
-![[Drawing 2024-09-09 00.40.09.excalidraw]]
-
+![[poorly-made-notes/Drawing 2024-09-09 00.40.09.excalidraw.md]]
