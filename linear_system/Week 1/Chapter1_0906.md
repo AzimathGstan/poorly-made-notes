@@ -4,12 +4,17 @@
 Defined across all time $t$ 
 ## Discrete-time signal $x[n]$
 Defined only at discrete times $n$
-$n$ needs to be an integer.
+**$n$ needs to be an integer.**
 ## Even signal
 $$ x(t) = x(-t) $$
+Can be describe as **mirror across y-axis**.
 ## Odd signal
 $$ x(t) = -x(t) $$
-	take note on odd even (de)composition
+Can be describe as **rotate 180 degree around origin**.
+
+## Quick way to distinguish
+![alt text](quickdraw.png)
+## Even-Odd decomposition
 ## Periodic signal
 ### Continuous-time signal
 For continuous-time signal $x(t)$, if there exists a $T$ such that
