@@ -11,7 +11,9 @@ $$ cos(\theta\pm\phi)=cos\theta cos\phi\mp sin\theta sin\phi $$
 
 $$ sin\theta sin\phi=\frac{1}{2}(cos(\theta-\phi)-cos(\theta+\phi)) $$
 
-$$ cos\theta cos\phi=\frac{1}{2}(cos(\theta-\phi)+cos(\theta+\phi)) $$$$ sin\theta cos\phi=\frac{1}{2}(sin(\theta-\phi)+sin(\theta+\phi)) $$
+$$ cos\theta cos\phi=\frac{1}{2}(cos(\theta-\phi)+cos(\theta+\phi)) $$
+
+$$ sin\theta cos\phi=\frac{1}{2}(sin(\theta-\phi)+sin(\theta+\phi)) $$
 
 ===TODO: check these property online again, maybe contains some mistakes== 
 ## Complex Numbers
