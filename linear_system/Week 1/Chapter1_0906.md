@@ -13,7 +13,8 @@ $$ x(t) = -x(t) $$
 Can be describe as **rotate 180 degree around origin**.
 
 ## Quick way to distinguish
-![alt text](quickdraw.png)
+
+![[attachs/Pasted image 20240909222842.png]]
 ## Even-Odd decomposition
 ## Periodic signal
 ### Continuous-time signal
