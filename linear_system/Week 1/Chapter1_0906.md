@@ -48,7 +48,7 @@ Where the smallest possible $N$ is being called as "The Fundamental period"
 When we facing $sin(n)$ or $cos(n)$, to be able to achieve periodic signal, **$n$ must be an integer multiple of $2\pi$**. Therefore we can find an positive integer $N$ to proof the periodicity of $sin(n)$ or $cos(n)$.
 Then the fundamental angular frequency is $\Omega = \frac{2\pi}{N}$.
 ## Non-Periodic signal
-![](attachs/Pasted%20image%2020240909225626.png)
+![](attachs/Pasted%20image%2020240909230614.png)
 
 ## Energy and Power of a signal
 
