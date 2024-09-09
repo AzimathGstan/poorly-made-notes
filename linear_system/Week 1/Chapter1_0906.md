@@ -61,3 +61,12 @@ $$ E = \int_{-\infty}^{\infty} |x(t)|^2 dt $$
 $$ P = \lim_{T\to\infty} \frac{1}{T} \int_{-T/2}^{T/2} |x(t)|^2 dt $$
 
 ### Discrete-time signal
+#### Total energy
+$$ E = \sum_{n=-\infty}^{\infty} |x[n]|^2 $$
+
+#### Time-Average power
+$$ P = \lim_{N\to\infty} \frac{1}{2N+1} \sum_{n=-N}^{N} |x[n]|^2 $$
+
+Where $N \gt\gt 1$, therefore we can reduce it to
+
+$$ P = \lim_{N\to\infty} \frac{1}{2N} \sum_{n=-N}^{N} |x[n]|^2 $$
