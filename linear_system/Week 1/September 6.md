@@ -6,7 +6,9 @@ Teamwork(10%) $\rightarrow$ Homework(2.5% * 4)
 # Prelude - Background
 
 ## Trigonometry
-
+$$ cos^2\theta=\frac{1}{2}(1+cos2\theta)$$
+$$ sin^2\theta = \frac{1}{2}(1-cos2\theta) $$
+$$ cos $$
 ## Complex Numbers
 
 $j = \sqrt{-1}$, $x = Re\{w\}$, $y = Im\{w\}$\
@@ -44,5 +46,12 @@ $\sum_{n=0}^{\infty} r^n = \frac{1}{1-r}$
 - Even signal: $x(t) = x(-t)$
 - Odd signal: $x(t) = -x(-t)$
 
-    take note on odd even (de)composition
+	take note on odd even (de)composition
     
+
+- Periodic
+- Non-Periodic
+- 
+d
+> find more thing on ppt
+
