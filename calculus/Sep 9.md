@@ -47,3 +47,6 @@ Ex:
 DEF Limit of a function
 let $f(x)$ be defined on open interval about $x_0$, except possibly at $x_0$ itself
 If, for every number  $\epsilon \gt 0$, there exist a corresponding number $\delta$ 
+
+
+
