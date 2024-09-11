@@ -4,8 +4,8 @@
 
 - On Dependent variables e.g $x(t)$
 	- Amplitude scaling  
-	  $y(t)=cx(t)$  
-	  $y[n]=cx[n]$  
+			$y(t)=cx(t)$  
+			$y[n]=cx[n]$  
 	- Addition
 	- Multiplication
 	- Differentiation -- for continuous only
