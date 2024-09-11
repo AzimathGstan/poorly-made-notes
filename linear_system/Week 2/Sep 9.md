@@ -4,12 +4,18 @@
 
 - On Dependent variables e.g $x(t)$
 	- Amplitude scaling  
-			$y(t)=cx(t)$  
-			$y[n]=cx[n]$  
+		$y(t)=cx(t)$  
+		$y[n]=cx[n]$  
 	- Addition
+		$y(t)=x(t)+v(t)$  
+		$y[n]=x[n]+v[n]$  
 	- Multiplication
+		$y(t)=x(t)v(t)$  
+	    $y[n]=x[n]v[n]$  
 	- Differentiation -- for continuous only
+		$y(t)=\frac{dx(t)}{dt}$  
 	- Integration -- for continuous only
+		$y(t)=\int x(t)dt$  
 - On independent variables e.g. $t$ 
 	- Time scaling
 	- Reflection
