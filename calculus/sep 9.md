@@ -1,7 +1,4 @@
 Defining the slope of a curve
-
-
-
 # 2-2 Limits of a Function and limit laws
 ## Limit of Function Values
 
