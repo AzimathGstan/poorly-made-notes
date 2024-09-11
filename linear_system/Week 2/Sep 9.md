@@ -4,25 +4,11 @@
 
 - On Dependent variables e.g $x(t)$
 	- Amplitude scaling
-	
-	  $$\begin{align}
-		  &y(t) = cx(t)\\
-		  &y[n] = cx[n] \\
-		  \end{align}$$ 
+	  $y(t)=cx(t)$
+	  $y[n]=cx[n]$
 	- Addition
-    $$\begin{align}
-      &y(t) = x(t) + v(t)\\
-      &y[n] = x[n] + v[n] \\
-      \end{align}$$ 
-	
 	- Multiplication
-    $$\begin{align}
-      &y(t) = x(t)v(t)\\
-      &y[n] = x[n]v[n] \\
-      \end{align}$$ 
-	
 	- Differentiation -- for continuous only
-	
 	- Integration -- for continuous only
 - On independent variables e.g. $t$ 
 	- Time scaling
