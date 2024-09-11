@@ -3,9 +3,9 @@
 ## Two classes of operations
 
 - On Dependent variables e.g $x(t)$
-	- Amplitude scaling
-	  $y(t)=cx(t)$
-	  $y[n]=cx[n]$
+	- Amplitude scaling  
+	  $y(t)=cx(t)$  
+	  $y[n]=cx[n]$  
 	- Addition
 	- Multiplication
 	- Differentiation -- for continuous only
