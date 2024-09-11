@@ -1,17 +1,17 @@
-# Prepare
-
-# In class
-
 # Basic Operation on signals
 
 ## Two classes of operations
 
 - On Dependent variables e.g $x(t)$
 	- Amplitude scaling
+	  $$\begin{align}
+		  &y(t) = cx(t)\\
+		  &y[n] = cx[n] \\
+		  \end{align}$$ 
 	- Addition
 	- Multiplication
-	- Differentiation -- for $t$ only
-	- Integration -- for $t$ only
+	- Differentiation -- for continuous only
+	- Integration -- for continuous only
 - On independent variables e.g. $t$ 
 	- Time scaling
 	- Reflection

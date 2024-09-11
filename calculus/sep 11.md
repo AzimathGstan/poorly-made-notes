@@ -86,4 +86,61 @@ $$
 $$ 
 
 ![](attachs/Pasted%20image%2020240911152341.png)
-> append something from the phone
+> append something from the phone 
+
+## Precise Definition of one sided limit
+### Def $$ \begin{align} 
+&\lim_{x\to x_0^+}f(x)=L \text{ } \\
+&\forall\epsilon\gt0, \exists\delta, s.t. \forall x, x_0\lt x\lt x_0+\delta \\
+&\implies |f(x)-L|\lt\epsilon \end{align}$$
+### Def $$ \begin{align} 
+&\lim_{x\to x_0^-}f(x)=L \text{ } \\
+&\forall\epsilon\gt0, \exists\delta, s.t. \forall x, x_0-\delta\lt x\lt x_0 \\
+&\implies |f(x)-L|\lt\epsilon \end{align}$$
+# THM7 
+$$\lim_{\theta\to0}\frac{\sin\theta}{\theta}=1$$
+
+then $$ \begin{align}
+&\lim_{\theta\to0^+}\frac{\sin\theta}{\theta}= ? \\
+&\lim_{\theta\to0^-}\frac{\sin\theta}{\theta}= ? 
+\end{align}
+$$
+![](attachs/Pasted%20image%2020240911175211.png)
+Domain of $\sin\theta$ is $(-\infty, +\infty) / \{0\}$
+
+PF
+
+
+$y=sin\theta$ is an odd function.  $(f(-x)= -f(x))$
+$y=\theta$ is an odd function. 
+$\frac{\sin\theta}{\theta}$ is an even function. $-f(x) * -f(x) = f(x)$
+
+## Ex $$ 
+\lim_{\theta\to0}\frac{\sin2x}{5x} = 1
+$$
+Let make it into more familiar form, which we just talk about:
+
+$$ 
+\begin{align}
+&\lim_{\theta\to0}\frac{\sin2x}{2x * \frac{5}{2}} \\
+\implies& \frac{2}{5} \mathbf{\lim_{\theta\to0}\frac{\sin2x}{2x}} \\
+\implies& \frac{2}{5} * 1 \\
+\implies& \frac{2}{5}
+\end{align}
+$$
+
+# 2-5 Continuity
+## **Def** Continuous at a point
+
+**Interior point**: $f(x)$ is continuous at an interior point C If
+$$
+\lim_{x\to c}f(x) = f(c)
+$$
+**End point**: $f(x)$ is continuous at a left-end point(a) or at right-hand(b) point if
+$$
+\lim_{x\to a^+}f(x) = f(a) \text{ or } \lim_{x\to b^-}f(x) = f(b)
+$$
+
+
+> pic sup
+...
