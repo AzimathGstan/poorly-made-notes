@@ -6,8 +6,7 @@ $$ \begin{align} &f(t)\delta(t-t_1)\delta(t-t_2)\\ &\delta^2(t-t_1)\rightarrow \
 
 ## Ramp Function $$ r(t) = tu(t) $$ 
 ## System as interconnection of operation
-
-> add something here
+![](attachs/Pasted%20image%2020240916214636.png)
 # System
 ## properties of systems
 
@@ -19,13 +18,18 @@ $$ \begin{align} &f(t)\delta(t-t_1)\delta(t-t_2)\\ &\delta^2(t-t_1)\rightarrow \
 - Linearity
 ## stability
 ### BIBO (bounded-input bounded-output)
-Assume
-$$ |x[n]| < M_0 < \infty$$
-here $M_0$
-then use abs to check
+For every bounded input, the output is also bounded.
+That is 
 
-$$  |y[n] |=[r^nx[n]=|r^n|*|x[n] $$
-
+$$
+\begin{align}
+&\forall |y(t)| \leq M_y < \infty \\
+&\exists |x(t)| \leq M_x < \infty
+\end{align}
+$$
+For example:
+$$  |y[n] |=r^nx[n]=|r^n|*|x[n]| $$
+will not bounded if $r>1$.
 
 ## Memory
 Output depends on non-present (e.g. past or future) called memory.

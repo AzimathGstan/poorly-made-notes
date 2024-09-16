@@ -38,8 +38,9 @@ $$y(t)=x(t-t_0)$$
 
 ### Example
 
-	order of this question
-	-> + 3...
+> TODO
+> order of this question
+> -> + 3...
 
 ...
 
@@ -49,10 +50,13 @@ $$y(t)=x(t-t_0)$$
 - $0\lt1$ y(t) were expanded
 ![](attachs/Pasted%20image%2020240916172530.png)
 #### Discrete: $y[n]=x[kn]$
-Where $k > 0$ . when $k \gt 1$ the values might be lost.
+> Where $k > 0$ . when $k \gt 1$ the values might be **lost**.
 
 ## Reflection
-> TODO
+#### Continuously: $y(t)=x(-t)$
+#### Discretely: $y[n]=x[-n]$
+![](attachs/Pasted%20image%2020240916222859.png)
+
 
 ### Time shifting
 #### Continuously: $y(t)=x(t-t_0)$
@@ -61,18 +65,18 @@ Where $k > 0$ . when $k \gt 1$ the values might be lost.
 ![](attachs/Pasted%20image%2020240916172132.png)
 
 ### Precedence Rule
+#### Continuously
+Time-shifting > time-scaling
 
-time-shifting -> time-scaling
+$$ v(t)=x(t-b)$$
 
-$$ v(t)=x(t-b)$$   
 $$ y(t)=v(at)=x(at-b)$$
+####  Discretely
 
-	Note That It is IMPORTANT that it compress based on the original(0) rather the point were it shift to. That so called precedence rule
-	
+$$ y[n] = x[2n] $$ 
+> Note That some values might be **lost** after compression in discrete signal
 
-when comes to discrete  
-$$ y[n] = x[2n] $$ its important to know that some sample that were not integer will be discarded
-
+> Note That It is **IMPORTANT** that it compress based on the original(0) rather the point were it shift to.
 ## Elementary signals
 
 - Exponential
@@ -81,50 +85,78 @@ $$ y[n] = x[2n] $$ its important to know that some sample that were not integer 
 - Impulse
 - Ramp
 
-#### Exponential signal			
+### Exponential signal
+
 $$x[n]=Br^n=Be^{}$$
-		Fill this out according to the ppt
+![](attachs/Pasted%20image%2020240916223611.png)
 
-for continusly
-for descrete $e^{\Omega n}$
+#### Continuously $x(t)=Be^{at}$
+- $a \gt 0$ exponential growth
+- $a \lt 0$ exponential decay
+- $a = 0$ constant
+#### Discretely $x[n]=Br^n$
+- $r \gt 1$ exponential growth
+- $0 \lt r \lt 1$ exponential decay
+- $r = 1$ constant
 
-### Sinusoid signal
+### Sinusoid signal $x(t)=Acos(\Omega t+\phi)$ 
+- A: amplitude
+- $\Omega$: frequency
+- $\phi$: phase shift
+- Period $T=2\pi/\Omega$
+- Frequency $f=1/T=\Omega/2\pi$
 
+#### Continuously
+
+$$ x(t)=Acos(\Omega t+\phi)$$
 #### Discrete
+
 $$ x[n]=Acos(\Omega n+\phi)$$
 - May not be periodic
 - $x[n]$ is periodic if $x[n+N]=Acos(\Omega n + \Omega N + \phi)) = x[n]$ 
-	sin(t) = 2pi
-	sin(5 * pi * n) = 2/5
 
-The m in the ppt might need to be found by oneself
-===ask this ? === 
+> TODO: needs more details 
 
-### relation between sinusoid and exponential 
-the eular formuler
+### Relation between sinusoid and exponential -- Euler's formula
+
+$$ e^{j\theta} = cos(\theta) + jsin(\theta)$$
+Consider an exponential signal $Be^{j\omega t}$ where $B = Ae^{j\phi}$
+$$ Be^{j\omega t} = Ae^{j\phi}e^{j\omega t} = A(cos(\omega t + \phi) + jsin(\omega t + \phi))$$
 
 $$ s[n] = s[n+N] => cos(2\pi n) = cosj(n + N) $$
+> TODO: needs more details
+### Step function
 
-### step function
-> Finishing this from ppt
-
-### impulse function
 #### Discrete
-important for discrete.
-Any Discrete function can be describe by scaling or shifting impulse function
-> TODO pic
-#### Continuously 
 
-===make sure draw an arrow upward instead of drawing a circle or a line with 1===
->TODO pic
+$$
+u[n] = 
+\begin{cases}
+1 & t \geq 0 \\
+0 & t \lt 0
+\end{cases}
+$$
+
+#### Continuously
+$$
+u(t) = 
+\begin{cases}
+1 & t \gt 0 \\
+0 & t \lt 0
+\end{cases}
+$$
+> TODO: Provide a example from chap1-101
+
+### **Impulse function**
+Fundamental signal in signal processing
+#### Discrete
+![](attachs/Pasted%20image%2020240916225209.png)
+#### Continuously 
+![](attachs/Pasted%20image%2020240916225234.png)
+
+> Make sure to draw an arrow instead of a line to show the impulse function in continuous signal
 
 - Is an even function
-- its shifting:
-- its time-scaling --notice that u might need add abs:
-> todo ppt, notice the importance of the shifting property
-
 $$\delta(t-t_0) = \delta(t_0-t)$$
-> maybe a pic ?
-> 
 
 
