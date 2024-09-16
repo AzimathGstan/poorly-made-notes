@@ -4,6 +4,7 @@ causal when present value of the output signal depends only on present or past v
 ##### Example:
 
 $$ y[n]=x[n-1]+x[n]+x[n+1] $$
+
 which required future value of input signal, so it is not causal.
 
 ## Invertibility
@@ -13,6 +14,7 @@ In mathematical terms
 $$
 H^{inv}\{H\{x[n]\}\}=x[n]
 $$
+
 caveat:
 - It must be one-to-one mapping between input and output signal.
 
@@ -134,10 +136,12 @@ assume
 $$
 y_i[n]=H\{x_i[n]\}
 $$
+
 then let 
 
 $$
 x[n] = \sum_{i=1}^{N}a_ix_i[n]$$
+
 plug in and check if it 
 
 $$
