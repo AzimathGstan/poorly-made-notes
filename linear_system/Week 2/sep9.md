@@ -4,14 +4,20 @@
 
 ### On Dependent var $x(t)$
 #### Amplitude scaling
+
 $$y(t)=cx(t)$$
+
 $$y[n]=cx[n]$$
 #### Addition
+
 $$y(t)=x(t)+v(t)$$
+
 $$y[n]=x[n]+v[n]$$
 
 #### Multiplication
+
 $$y(t)=x(t)v(t)$$
+
 $$y[n]=x[n]v[n]$$
 
 #### Differentiation (continuous only))
@@ -21,7 +27,9 @@ $$y(t)=\frac{dx(t)}{dt}$$
 $$y(t)=\int x(t)dt$$
 ### On independent var $t$
 #### Time scaling
+
 $$y(t)=x(at)$$
+
 $$y[n]=x[kn]$$
 #### Reflection
 $$y(t)=x(-t)$$
@@ -56,12 +64,14 @@ Where $k > 0$ . when $k \gt 1$ the values might be lost.
 
 time-shifting -> time-scaling
 
-$$ v(t)=x(t-b)$$	$$ y(t)=v(at)=x(at-b)$$
+$$ v(t)=x(t-b)$$	
+$$ y(t)=v(at)=x(at-b)$$
 
 	Note That It is IMPORTANT that it compress based on the original(0) rather the point were it shift to. That so called precedence rule
 	
 
-when comes to discrete $$ y[n] = x[2n] $$ its important to know that some sample that were not integer will be discarded
+when comes to discrete  
+$$ y[n] = x[2n] $$ its important to know that some sample that were not integer will be discarded
 
 ## Elementary signals
 
