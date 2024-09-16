@@ -4,7 +4,9 @@ $$ \begin{align} &f(t)\delta(t-t_1)\delta(t-t_2)\\ &\delta^2(t-t_1)\rightarrow \
 
 > 09/16 Update: It seems like that $\delta^2$ is not a valid operation. 
 
-## Ramp Function $$ r(t) = tu(t) $$ 
+## Ramp Function 
+
+$$ r(t) = tu(t) $$ 
 ## System as interconnection of operation
 ![](attachs/Pasted%20image%2020240916214636.png)
 # System
@@ -28,6 +30,7 @@ $$
 \end{align}
 $$
 For example:
+
 $$  |y[n] |=r^nx[n]=|r^n|*|x[n]| $$
 will not bounded if $r>1$.
 
@@ -35,4 +38,5 @@ will not bounded if $r>1$.
 Output depends on non-present (e.g. past or future) called memory.
 
 $$ (x[n-1]+x[n]+x[n+1]) $$
+
 is a  memory system, as it depends on past($x[n-1]$)  and future($x[n+1]$).

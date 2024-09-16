@@ -2,12 +2,15 @@
 causal when present value of the output signal depends only on present or past value of input signal.
 
 ##### Example:
+
 $$ y[n]=x[n-1]+x[n]+x[n+1] $$
 which required future value of input signal, so it is not causal.
 
 ## Invertibility
 A system is invertible if input signal can be recovered from output signal'.
-In mathematical terms $$
+In mathematical terms 
+
+$$
 H^{inv}\{H\{x[n]\}\}=x[n]
 $$
 caveat:
@@ -30,11 +33,13 @@ Consider a inductor that is
 $$
 y_1(t) = \frac{1}{L}\int_{-\infty}^{t}x_1(\tau)d\tau
 $$
+
 Then we try to shift the input of the system $y_2$  by changing the $t$ in x to $t-t_0$
 
 $$
 y_2(t) = \frac{1}{L}\int_{-\infty}^{t}x_2(\tau-t_0)d\tau
 $$
+
 while we delay whole system $y_1$ by $t_0$.
 
 $$
@@ -52,12 +57,14 @@ Consider an thermistor that is
 $$
 y_1(t) = \frac{x_1(t)}{R(t)}
 $$
+
 Then we try to shift the input of the system $y_2$  by changing the $t$ in x to $t-t_0$
 
 
 $$
 y_2(t) = \frac{x_2(t-t_0)}{R(t)}
 $$
+
 while we delay whole system $y_1$ by $t_0$.
 
 $$
@@ -122,13 +129,17 @@ assume $y[n] = H\{x[n]\}$
 let input: $x[n-n_0]$ then shall output be: $y[n-n_0]$
 
 ## Linearity: 
-assume $$
+assume 
+
+$$
 y_i[n]=H\{x_i[n]\}
 $$
 then let 
+
 $$
 x[n] = \sum_{i=1}^{N}a_ix_i[n]$$
 plug in and check if it 
+
 $$
 y[n] = \sum_{i=1}^{N}a_iy_i[n]
 $$
