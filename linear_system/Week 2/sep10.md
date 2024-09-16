@@ -29,9 +29,11 @@ $$
 &\exists |x(t)| \leq M_x < \infty
 \end{align}
 $$
+
 For example:
 
 $$  |y[n] |=r^nx[n]=|r^n|*|x[n]| $$
+
 will not bounded if $r>1$.
 
 ## Memory
