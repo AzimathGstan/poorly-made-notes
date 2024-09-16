@@ -64,7 +64,7 @@ Where $k > 0$ . when $k \gt 1$ the values might be lost.
 
 time-shifting -> time-scaling
 
-$$ v(t)=x(t-b)$$	
+$$ v(t)=x(t-b)$$   
 $$ y(t)=v(at)=x(at-b)$$
 
 	Note That It is IMPORTANT that it compress based on the original(0) rather the point were it shift to. That so called precedence rule
