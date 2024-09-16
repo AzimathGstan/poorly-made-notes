@@ -14,28 +14,40 @@ caveat:
 - It must be one-to-one mapping between input and output signal.
 
 ## Time Invariance
-Time invariance means that the system responds indentically to the same input signal no matter when
+Time invariance means that the system responds identically to the same input signal no matter when
 
-math term: $$
-x(t) \rightarrow y(t) ; x(t-\tau) \rightarrow y(t-\tau)
+math term: 
+
+$$ \begin{align}
+&x(t) \rightarrow y(t)\\ 
+&x(t-\tau) \rightarrow y(t-\tau)
+\end{align}
 $$
 ##### Ex:
->from ppt 132
+>from ppt chap1-132
 >**make input $\tau$ as $t-t_0$**
 
 ## Linearity
 ### Superposition(Additivity $+$ )
-$$
-\text{If  }  x_1(t) \rightarrow y_1(t) \text{ and } x_2(t) \rightarrow y_2(t) \text{ then } ax_1(t)+bx_2(t) \rightarrow ay_1(t)+by_2(t)
+$$ \begin{align}
+\text{If  }  &x_1(t) \xrightarrow[]{H} y_1(t) \text{ and } x_2(t) \rightarrow y_2(t) \\
+\text{ then } &x_1(t)+x_2(t) \xrightarrow[]{H} y_1(t)+y_2(t)
+\end{align}
 $$
 
 ### Homogeneity(Scaling $\times$)
-	$$
-	\text{If }  x(t) \rightarrow y(t) \text{ then } ax(t) \rightarrow ay(t)
-	$$
-#### Ex: $$ y[n]=nx[n] $$
+	$$\begin{align}
+	\text{If }  x(t) &\xrightarrow[]{H} y(t) \\
+	\text{ then } ax(t) &\xrightarrow[]{H} ay(t)
+	
+	\end{align}$$
+	
+#### Ex: 
+
+$$ y[n]=nx[n] $$
 steps: 
 1. let a new signal $x[n]2$
+> TODO
 
 ## Review 
 ### Stability
@@ -65,7 +77,7 @@ plug in and check if it
 $$
 y[n] = \sum_{i=1}^{N}a_iy_i[n]
 $$
-
+> TODO: EXAMPLE
 ### Noise:
 Signal that you don't want.
 

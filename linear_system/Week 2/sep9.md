@@ -39,18 +39,18 @@ $$y(t)=x(t-t_0)$$
 #### Continuously: $y(t) = x(at)$ 
 - $a \gt 1$, y(t) were compressed
 - $0\lt1$ y(t) were expanded
+![](attachs/Pasted%20image%2020240916172530.png)
+#### Discrete: $y[n]=x[kn]$
+Where $k > 0$ . when $k \gt 1$ the values might be lost.
 
-		Perhaps adding some figure here 
-
-#### Discrete: ... $a \gt 1$
-		sample might be lose after compress
+## Reflection
+> TODO
 
 ### Time shifting
 #### Continuously: $y(t)=x(t-t_0)$
-#### Discretely: ...
+#### Discretely: $y[n]=x[n-n_0]$
 
-		perhaps import some figure from ppt
-
+![](attachs/Pasted%20image%2020240916172132.png)
 
 ### Precedence Rule
 
