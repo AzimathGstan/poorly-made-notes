@@ -18,14 +18,13 @@
 ### BIBO (bounded-input bounded-output)
 Assume
 $$ |x[n]| < M_0 < \infty$$
-
 here $M_0$
-then use abs to chck
+then use abs to check
 
 $$  |y[n] |=[r^nx[n]=|r^n|*|x[n] $$
 
 
 ## Memory
-### Can be determind by the relationship between present value and before
+### Can be determined by the relationship between present value and before
 
 $$ \frac{1}{3}(x[n-1]+x[n]+x[n+1]) $$

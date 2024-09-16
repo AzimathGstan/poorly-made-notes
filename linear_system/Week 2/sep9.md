@@ -2,24 +2,31 @@
 
 ## Two classes of operations
 
-- On Dependent variables e.g $x(t)$
-	- Amplitude scaling  
-		$y(t)=cx(t)$  
-		$y[n]=cx[n]$  
-	- Addition
-		$y(t)=x(t)+v(t)$  
-		$y[n]=x[n]+v[n]$  
-	- Multiplication
-		$y(t)=x(t)v(t)$  
-	    $y[n]=x[n]v[n]$  
-	- Differentiation -- for continuous only
-		$y(t)=\frac{dx(t)}{dt}$  
-	- Integration -- for continuous only
-		$y(t)=\int x(t)dt$  
-- On independent variables e.g. $t$ 
-	- Time scaling
-	- Reflection
-	- Time shifting
+### On Dependent var $x(t)$
+#### Amplitude scaling
+$$y(t)=cx(t)$$
+$$y[n]=cx[n]$$
+#### Addition
+$$y(t)=x(t)+v(t)$$
+$$y[n]=x[n]+v[n]$$
+
+#### Multiplication
+$$y(t)=x(t)v(t)$$
+$$y[n]=x[n]v[n]$$
+
+#### Differentiation (continuous only))
+$$y(t)=\frac{dx(t)}{dt}$$
+#### Integration (continuous only)
+
+$$y(t)=\int x(t)dt$$
+### On independent var $t$
+#### Time scaling
+$$y(t)=x(at)$$
+$$y[n]=x[kn]$$
+#### Reflection
+$$y(t)=x(-t)$$
+#### Time shifting
+$$y(t)=x(t-t_0)$$
 
 ### Example
 
