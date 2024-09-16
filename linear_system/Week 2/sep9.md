@@ -163,10 +163,12 @@ Fundamental signal in signal processing
 Impulse function can be use to represent a point in a signal. While add another $x$ to it can be used to represent the weight of the point.
 Then we can write any signal as a weighted sum of impulse functions
 
+
 $$ \begin{align}
 x(t) &= \int x(t)\delta(t-t_0)dt \\
 x[n] &= \sum x[n]\delta[n-n_0]
 \end{align}$$
+
 While $t_0$ or $n_0$ is the point in the signal. As the impulse function is 0 everywhere except at 0. We only needs to satisfy the condition $t-t_0=0$ or $n-n_0=0$ to get the position of the point.
 
 
