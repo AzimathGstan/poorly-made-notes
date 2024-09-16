@@ -120,10 +120,13 @@ $$ x[n]=Acos(\Omega n+\phi)$$
 ### Relation between sinusoid and exponential -- Euler's formula
 
 $$ e^{j\theta} = cos(\theta) + jsin(\theta)$$
+
 Consider an exponential signal $Be^{j\omega t}$ where $B = Ae^{j\phi}$
+
 $$ Be^{j\omega t} = Ae^{j\phi}e^{j\omega t} = A(cos(\omega t + \phi) + jsin(\omega t + \phi))$$
 
 $$ s[n] = s[n+N] => cos(2\pi n) = cosj(n + N) $$
+
 > TODO: needs more details
 ### Step function
 
