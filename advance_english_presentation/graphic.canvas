@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"id":"9da8a788da400b37","type":"text","text":"Enumerate Some Famous Introvert","x":-55,"y":-170,"width":210,"height":110},
+		{"id":"8ee45ba06f4b0eb1","type":"text","text":"Research about introvert's ability","x":190,"y":-115,"width":250,"height":100},
+		{"id":"6b5f064c3f6330e7","type":"text","text":"Introvert POWER","x":-450,"y":-280,"width":350,"height":50},
+		{"id":"fc8c0606b11cb75a","type":"text","text":"In workspace","x":-450,"y":0,"width":350,"height":80},
+		{"id":"5f9eeaf6361a90c2","type":"text","text":"Introduce typical nowaday classroom","x":-460,"y":-540,"width":370,"height":76},
+		{"id":"7268fdfa23d17bda","type":"text","text":"Own experience","x":-450,"y":-700,"width":350,"height":60},
+		{"id":"d3aacdaa4cc1bdbf","type":"text","text":"More group assignment than before","x":20,"y":-540,"width":360,"height":76},
+		{"id":"dd67e72724652677","type":"text","text":"CALL FOR ACTION","x":-450,"y":580,"width":350,"height":100},
+		{"id":"a4e7b9ed894ce0c3","type":"text","text":"Stop constant group work\nAlso need to be teaching them how to work on their own.","x":-90,"y":720,"width":280,"height":140},
+		{"id":"b09bf3eef6814586","type":"text","text":"Go to wilderness","x":220,"y":760,"width":250,"height":100},
+		{"id":"8cfeab8bebbca06b","type":"text","text":"Take a look inside your own suitcase.\n","x":500,"y":760,"width":250,"height":100},
+		{"id":"24d092c57ee8bf82","type":"text","text":"Introduce the most introverted guy -- her grandfather","x":-450,"y":400,"width":350,"height":100},
+		{"id":"7a029b6ab4c2ba5c","type":"text","text":"Introvert leader more likely run with their idea","x":-30,"y":130,"width":220,"height":100},
+		{"id":"08e79c2c24f617a9","type":"text","text":"Then why extrovert rules in modern society","x":-450,"y":230,"width":350,"height":100},
+		{"id":"b9e4a52fb5a8c513","type":"text","text":"While in places with strangers.\nExtrovert will more be important.","x":-30,"y":390,"width":345,"height":110},
+		{"id":"886e299a9a334241","type":"text","text":"R-O-W-D-I-E vs mellow","x":20,"y":-718,"width":295,"height":98}
+	],
+	"edges":[
+		{"id":"f3fc40420b248615","fromNode":"6b5f064c3f6330e7","fromSide":"right","toNode":"9da8a788da400b37","toSide":"top"},
+		{"id":"4dd9571eda92c429","fromNode":"5f9eeaf6361a90c2","fromSide":"bottom","toNode":"6b5f064c3f6330e7","toSide":"top"},
+		{"id":"bda9a3e4d8f1e618","fromNode":"6b5f064c3f6330e7","fromSide":"bottom","toNode":"fc8c0606b11cb75a","toSide":"top"},
+		{"id":"709da969dea9a7a7","fromNode":"6b5f064c3f6330e7","fromSide":"right","toNode":"8ee45ba06f4b0eb1","toSide":"top"},
+		{"id":"c05ff7c74c6c19b8","fromNode":"7268fdfa23d17bda","fromSide":"bottom","toNode":"5f9eeaf6361a90c2","toSide":"top"},
+		{"id":"1d52909d08d41e79","fromNode":"24d092c57ee8bf82","fromSide":"bottom","toNode":"dd67e72724652677","toSide":"top"},
+		{"id":"966ccb2918320b27","fromNode":"dd67e72724652677","fromSide":"right","toNode":"a4e7b9ed894ce0c3","toSide":"top"},
+		{"id":"127d3957046b4001","fromNode":"dd67e72724652677","fromSide":"right","toNode":"b09bf3eef6814586","toSide":"top"},
+		{"id":"eec5d9b073f9ed3e","fromNode":"dd67e72724652677","fromSide":"right","toNode":"8cfeab8bebbca06b","toSide":"top"},
+		{"id":"c876295270ee048e","fromNode":"5f9eeaf6361a90c2","fromSide":"right","toNode":"d3aacdaa4cc1bdbf","toSide":"left"},
+		{"id":"105e3c6a6ed2c655","fromNode":"fc8c0606b11cb75a","fromSide":"right","toNode":"7a029b6ab4c2ba5c","toSide":"top"},
+		{"id":"4831ccd10cbb2ae4","fromNode":"fc8c0606b11cb75a","fromSide":"bottom","toNode":"08e79c2c24f617a9","toSide":"top"},
+		{"id":"12b6512118e21105","fromNode":"08e79c2c24f617a9","fromSide":"bottom","toNode":"24d092c57ee8bf82","toSide":"top"},
+		{"id":"65ff75883cc6f318","fromNode":"08e79c2c24f617a9","fromSide":"right","toNode":"b9e4a52fb5a8c513","toSide":"top"},
+		{"id":"0a3a9a7901b0eb73","fromNode":"7268fdfa23d17bda","fromSide":"right","toNode":"886e299a9a334241","toSide":"left"}
+	]
+}
