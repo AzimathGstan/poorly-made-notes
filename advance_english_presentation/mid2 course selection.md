@@ -1,26 +1,29 @@
 Everyone had some sort experience about class selection.
 
-For me, the 3 never advice me to choose.
+For me, the "3 never" principle helps me to choose.
 That is.
 
 The courses that you never had chance to take.
 The time that you never want to have class.
 And the professor that you never want to meet with.
 
+You ordered them on top of list to maximize the change to get those.
+And you are just too lazy to get up on the morning.
+And sometimes you just want to avoid some professor.
 
-For some lucky human, its just semesterly works.
-But for some unfortunately individual. Its totally a schedule destroyer. 
-
+Last time did not end well.
 But this time I believed it won't happen again.
 With the perfectly filled and ordered table it must be...
-None of them.
+EVEN WORSE.
 
-
-At least I got one "Computer Algorithm"
+Japanese courses  on 8:00 a.m. , well.
+What else do we have...
+At least I got one "Computer Algorithm".
+Not really sure is a good thing or not.
 
 (Phone ring...)
 Kay: Hello ?
-Me: Hi, Kay. Good Afternoon. Hows your courses went.
+Me: Oh? Kay. Good Afternoon. Hows your courses went.
 Kay: oh~ That went wonderful. I got everything i want perfectly
 Me: I see. The only thing i got is "Computer Algorithm"
 Kay:  ah~ The one led by the legendary professor.
@@ -38,5 +41,7 @@ Kay: You haven't take that class have you ?
 Me: oh, of course not.  (adding some scene about dropping it)
 Kay: Then have a good day.
 
-
+(Ending)
+Directed by
+ROBERT B. WEIDE
 
