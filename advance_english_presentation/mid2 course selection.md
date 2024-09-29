@@ -15,11 +15,15 @@ Last time did not end well.
 But this time I believed it won't happen again.
 With the perfectly filled and ordered table it must be...
 EVEN WORSE.
+> add more humor
 
 Japanese courses  on 8:00 a.m. , well.
 What else do we have...
 At least I got one "Computer Algorithm".
 Not really sure is a good thing or not.
+
+> Maybe adding some teach nothing and bunch home work and reduce somes
+> 
 
 (Phone ring...)
 Kay: Hello ?

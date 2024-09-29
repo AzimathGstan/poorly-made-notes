@@ -7,7 +7,7 @@
 > 濁音（だうおん）
 > 半濁音（はんだくおん）
 # 拗音 ゃゅょ
-2文字の場合、1拍と数える
+2文字の場合、1拍と数える、For hiragana, its paired with i series.
 
 # 撥音 ん
 １拍と数える
@@ -18,7 +18,7 @@ Never read it as a-n is "a n"
 no need to pronounce the small つ
 
 # 長音 
-母音+相同母音の場合、連続して発音する
+母音+相同母音の場合、連続して発音する、同詞
 
 ぬう=> nu~u
 はあ=> ha~a
@@ -40,3 +40,5 @@ or in arrow
 びよういんいった 9
 まっさまんかれえ 8
 ちょうかいかいよう 8
+
+
