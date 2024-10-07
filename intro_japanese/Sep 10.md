@@ -41,4 +41,16 @@ or in arrow
 まっさまんかれえ 8
 ちょうかいかいよう 8
 
+pitches
 
+1↗ 2  3
+かぞく
+
+- 1 and 2 must different pitches
+- will not going up when going down ?
+- 
+67 
+190
+804
+651
+67 
