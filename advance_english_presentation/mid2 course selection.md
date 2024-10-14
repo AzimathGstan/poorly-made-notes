@@ -7,12 +7,9 @@ The courses that you never had chance to take.
 The time that you never want to have class.
 And the professor that you never want to meet with.
 
-> The you ordered them ... some fixes probably redo these
-> 
-
-You ordered them on top of list to maximize the change to get those.
-And you are just too lazy to get up on the morning.
-And sometimes you just want to avoid some professor.
+According to this principle
+I filled my table carefully, make sure my next semester will be perfect.
+Unlike last time.
 
 > maybe add one more pages about last time ?
 

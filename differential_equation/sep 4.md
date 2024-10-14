@@ -4,7 +4,7 @@
 - CH2 2nd-ODE
 - CH3 The Laplace Transform
 - CH4 Series Solutions of ODEs
-# Scoring
+﻿# Scoring﻿﻿﻿﻿﻿﻿
 
 - HW 20%
 - 1st Exam 25%
