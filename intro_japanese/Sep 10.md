@@ -8,6 +8,7 @@
 > 半濁音（はんだくおん）
 # 拗音 ゃゅょ
 2文字の場合、1拍と数える、For hiragana, its paired with i series.
+ひゃ ひゅ ひょ
 
 # 撥音 ん
 １拍と数える
