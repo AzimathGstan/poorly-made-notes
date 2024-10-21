@@ -11,4 +11,3 @@ x_e(t) = \frac{1}{2}[x(t)+x(-t)] \\
 x_o(t) = \frac{1}{2}[x(t)-x(-t)] 
 \end{cases} 
 $$
-- 

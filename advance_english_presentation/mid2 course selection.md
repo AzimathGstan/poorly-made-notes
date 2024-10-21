@@ -36,7 +36,11 @@ At least these courses are quite enjoy to me I guess.
 Kay: Hello ?
 Me: Oh? Kay. Good Afternoon. Hows your courses went.
 Kay: oh~ That went wonderful. I got everything i want perfectly
-Me: I see. The only thing i got is "Computer Algorithm"
+		Me: I see. The only thing i got is "Computer Algorithm"
+Me thinking: Hey I wonder how Computer Algorithm is.
+> maybe adding a frame here
+
+Me: Hey Kay. Have you ever heard about "Computer Algorithm" ?
 Kay:  ah~ The one led by the legendary professor.
 Me: Legendary ?
 Kay: Yes, have you ever heard of kindly Joe.
