@@ -25,3 +25,19 @@ $$\frac{dv}{dx}=(1-n)P(x)y^{1-n}+(1-n)Q(x)$$
 $$\frac{dv}{dx}=(1-n)P(x)v+(1-n)Q(x)$$
 
 Now we have a first order linear differential equation, we can solve this by using the integrating factor method.
+
+# Riccati Differential Equations
+> adding foreword
+
+## Example
+Consider the Riccati D.E. $y'=\frac{1}{x}y^2+\frac{1}{x}y-\frac{2}{x}$
+
+1. Find one simple solution as $s(x)=1$
+2. Use the change of variable $y(x)=s(x)+\frac{1}{z}=1+\frac{1}{z}$ to find the general solution of the Riccati D.E.
+
+$$
+\begin{aligned}
+\implies -\frac{1}{z^2}z'...
+\end{aligned}
+$$
+> adding from pic
