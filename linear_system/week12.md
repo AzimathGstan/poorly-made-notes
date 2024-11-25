@@ -54,5 +54,15 @@ Which $X[k]$ is a frequency-domain representation of the signal $x(t)$.
 > TODO add some example start from ptt 67
 
 # DTFT - Discrete Time Fourier Transform
+DTFT representation of aperiodic signal $x[n]$ is given by
+
+$$x[n]=\frac{1}{2\pi}\int^{\pi}_{-\pi}X(e^{j\Omega})e^{j\Omega n}d\Omega$$
+
+
+Where $X(e^{j\omega})$ is the DTFT coefficients given by
+
+$$ X(e^{j\Omega})=\sum^{\infty}_{n=-\infty}x[n]e^{-j\Omega n}$$
+
+> TODO add some example start from ptt 109
 
 # FT - Fourier Transform
