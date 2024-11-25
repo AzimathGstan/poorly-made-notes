@@ -30,6 +30,7 @@ $$ x[n]=\sum^{N-1}_{k=0}X[k]e^{jk\Omega_0n}$$
   Where $X[k]$ is the DTFS coefficients given by
 
 $$ X[k]=\frac{1}{N}\sum^{N-1}_{n=0}x[n]e^{-jk\Omega_0n}$$
+
 Which $X[k]$ is a frequency-domain representation of the signal $x[n]$.
 
 > TODO add some examples start from ptt 40, 41
