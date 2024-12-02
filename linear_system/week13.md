@@ -57,7 +57,9 @@ Then
 $X^*(j\omega) = X(-j\omega)$
 
 And
+
 $\text{Re}\{X(j\omega)\} = \text{Re}\{X(-j\omega)\}$} which real part is even
+
 $\text{Im}\{X(j\omega)\} = -\text{Im}\{X(-j\omega)\}$ which imaginary part is odd
 
 ### Even Signal
