@@ -46,4 +46,32 @@ Representations which is Discrete(Cont.) in one domain are Periodic(Aperiodic) i
 ![](attachs/Pasted%20image%2020241202214951.png)
 
 # Symmetry Properties
+## when $x(t)$ is real
+$X^*(j\omega)=[\int^\infty_{-\infty} x(t)e^{-j\omega t}dt]^* = \int^\infty_{-\infty} x^*(t)e^{-j(-\omega)t}dt$
+$x(t) = x^*(t)$
+Then
+$X^*(j\omega) = X(-j\omega)$
+And
+$\text{Re}\{X(j\omega)\} = \text{Re}\{X(-j\omega)\}$} which real part is even
+$\text{Im}\{X(j\omega)\} = -\text{Im}\{X(-j\omega)\}$ which imaginary part is odd
 
+### Even Signal
+Has a real and even Frequency Domain representation
+
+### Odd Signal
+Has a imaginary and odd Frequency Domain representation
+
+![](attachs/Pasted%20image%2020241202224308.png)
+> Simulation from gnuradio. Where Blue is real and Red is imaginary.
+
+## when $x(t)$ is imaginary
+
+### Even Signal
+Has a imaginary and even Frequency Domain representation
+
+### Odd Signal
+Has a real and odd Frequency Domain representation
+![](attachs/Pasted%20image%2020241202224619.png)
+> Simulation from gnuradio. Where Blue is real and Red is imaginary.
+
+> Add examples
