@@ -48,9 +48,7 @@ Representations which is Discrete(Cont.) in one domain are Periodic(Aperiodic) i
 # Symmetry Properties
 ## when $x(t)$ is real
 
-$$
-X^*(j\omega)=[\int^\infty_{-\infty} x(t)e^{-j\omega t}dt]^* = \int^\infty_{-\infty} x^*(t)e^{-j(-\omega)t}dt
-$$
+$$ X^*(j\omega)=(\int^\infty_{-\infty} x(t)e^{-j\omega t}dt)^* = \int^\infty_{-\infty} x^*(t)e^{-j(-\omega)t}dt $$
 
 $x(t) = x^*(t)$
 
