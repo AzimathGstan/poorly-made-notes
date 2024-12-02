@@ -64,5 +64,3 @@ Where $X(e^{j\omega})$ is the DTFT coefficients given by
 $$ X(e^{j\Omega})=\sum^{\infty}_{n=-\infty}x[n]e^{-j\Omega n}$$
 
 > TODO add some example start from ptt 109
-
-# FT - Fourier Transform
