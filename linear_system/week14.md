@@ -60,7 +60,7 @@ $$ X(j\omega - \gamma) \Leftrightarrow x(t)e^{j\gamma t}$$
 Assuming $X(j\omega)$ is expressed as a ration of polynomials in $j\omega$
 Then we can find $x(t)$ by partial fraction expansion and inverse FT
 
-$$\sum^{N}_{k=1} \frac{C_k}{(j\omega - d_k)} \Leftrightarrow \sum^{N}_{k=1} C_k$$
+$$\sum^{N}_{k=1} \frac{C_k}{(j\omega - d_k)} \Leftrightarrow \sum^{N}_{k=1}$$
 
 
 # Multiplication Property
