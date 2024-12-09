@@ -62,6 +62,8 @@ Then we can find $x(t)$ by partial fraction expansion and inverse FT
 
 $$ \sum^{N}_{k=1} \frac{C_k}{(j\omega - d_k)} \Leftrightarrow \sum^{N}_{k=1} C_k e^{d_k t} $$
 
+$$\sum^{N}_{k=1} \frac{C_k}{(j\omega - d_k)}$$
+
 # Multiplication Property
 Multiplication in Time Domain is equivalent to convolution in frequency domain
 
